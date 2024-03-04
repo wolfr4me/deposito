@@ -1,6 +1,9 @@
 package cuentas;
 
-public class CCuenta {
+public class CCuenta { /**
+ * Descripcion Cuenta
+ * Esta clase representa la cuenta bancarias y los metodos para realizar operaciones
+ */
 
 
     private String nombre;
@@ -18,7 +21,6 @@ public class CCuenta {
         cuenta=cue;
         saldo=sal;
     }
-    
     
 
     public double estado()
